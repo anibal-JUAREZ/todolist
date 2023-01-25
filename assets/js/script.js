@@ -198,7 +198,7 @@ function showAllTheTasks(){
             classChecked="";
         }
         listOfTasks.innerHTML +=`
-            <div class="d-flex text-center justify-content-between mt-4">
+            <div class="d-flex justify-content-center align-items-center mt-4">
                 <p class="col ${classCompleted} font-size" data-item="${index}">${oneTask.task}</p>
                 <div class="d-flex">
                     <i  data-item="${index}" class="fas fa-check check-in mr-4 ${classChecked}"></i>
